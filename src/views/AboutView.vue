@@ -1,5 +1,5 @@
 <template>
-  <div class="aboutSite">
+  <div class="AboutView">
     <MainComtainer>
       <h1>This is an about page</h1>
     </MainComtainer>
@@ -8,12 +8,15 @@
 </template>
 
 <script>
-import MainComtainer from '@/components/MainComtainer.vue';
+import MainComtainer from '@/components/MainContainer.vue';
 export default{
-  name: 'aboutSite',
+  name: 'AboutView',
   components: {
     MainComtainer,
   }
 }
 
 </script>
+
+<style>
+</style>

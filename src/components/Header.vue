@@ -30,6 +30,7 @@
       </div>
     </div>
   </nav>
+ 
 </template>
 
 <script>
@@ -60,6 +61,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
-
+*{
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  
+}
+.navbar{
+  color: black;
+}
 
 </style>
