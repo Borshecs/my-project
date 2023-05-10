@@ -42,14 +42,14 @@ export default {
   data(){
     return{
       headerMenuList: [
-        { name: 'Review', path: './HomeView' },
-        { name: 'Possibilities', path: './possibilities' },
-        { name: 'Plot', path: './aboutSite' },
-        { name: 'News', path: './news' },
+        { name: 'Review', path: './' },
+        { name: 'Possibilities', path: './' },
+        { name: 'Plot', path: './' },
+        { name: 'News', path: './' },
       ],
       headerMenuList2: [
-        { name: 'Sign', path: './sign' },
-        { name: 'Buy', path: './buy' },
+        { name: 'Sign', path: './' },
+        { name: 'Buy', path: './' },
       ]
     }
   },
